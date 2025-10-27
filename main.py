@@ -63,9 +63,6 @@ def calc():
                 print("__________________________________________")
             except ValueError:
                 print("Введите корректные значения")
-            except Exception as e:
-                print(e)
-
 
         elif choice == "5":
             print("ВОЗВЕДЕНИЕ В КВАДРАТ")
